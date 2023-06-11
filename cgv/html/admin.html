@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/admin.css">
+    <title>ADMIN</title>
+</head>
+
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'qlFim')">Quản lý phim </button>
+        <button class="tablinks" onclick="openCity(event, 'qlFimSapChieu')">Quản lý phim sắp chiếu</button>
+        <button class="tablinks" onclick="openCity(event, 'qlUser')">Quản lý user</button>
+    </div>
+
+    <div id="qlFim" class="tabcontent">
+        <div>
+            <label for="">Thêm sản phẩm</label><br>
+            <input type="file" id="fileInput"> <br>
+            <img id="image" src="" alt="Product image" style="width: 50px;"><br>
+
+            <label for="">Tên Phim</label> <br>
+            <input id="name" type="text"> <br>
+
+            <label for="">Thể Loại</label>
+            <input id="theLoai" type="text">
+
+            <label for="">Thời Lượng</label>
+            <input id="thoiLuong" type="text">
+
+            <label for="">Khởi Chiếu</label>
+            <input id="khoiChieu" type="text">
+
+            <label for="">Link quảng cáo phim</label>
+            <input id="url" type="url">
+
+            <button id="addFilm">Thêm Phim</button> <br> <br>
+        </div>
+        <table id="table">
+        </table>
+    </div>
+
+    <div id="qlFimSapChieu" class="tabcontent">
+        <div>
+            <label for="">Thêm phim sắp chiếu</label><br>
+            <input type="file" id="fileInputs"> <br>
+            <img id="images" src="" alt="Product image" style="width: 50px;"><br>
+
+            <label for="">Tên Phim</label> <br>
+            <input id="names" type="text"> <br>
+
+            <label for="">Thể Loại</label>
+            <input id="theLoais" type="text">
+
+            <label for="">Thời Lượng</label>
+            <input id="thoiLuongs" type="text">
+
+            <label for="">Khởi Chiếu</label>
+            <input id="khoiChieus" type="text">
+
+            <button id="addFilms">Thêm Phim</button> <br> <br>
+        </div>
+        <table id="tables">
+        </table>
+    </div>
+
+    <div id="qlUser" class="tabcontent">
+        <table class="quanLyUser">
+        </table>
+
+    </div>
+
+  
+
+    <script src="../js/admin.js"></script>
+</body>
+
+</html>

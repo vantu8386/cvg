@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdfcf0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row .ngonNgu ul {
+    list-style: none;
+    display: flex;
+}
+
+.row .ngonNgu ul li {
+    margin-left: 5px;
+
+}
+
+.vn {
+    border: 1px solid;
+    width: 30px;
+
+    background-color: red;
+
+}
+
+.row .ngonNgu li a {
+    color: white;
+}
+
+.en {
+    border: 1px solid;
+    width: 30px;
+    background-color: grey;
+
+}
+
+.session-header {
+    margin-right: 80px;
+    padding: 0px 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+.session-header a{
+    color: black;
+}
+
+.session-header div {
+    align-items: center;
+}
+
+/* -------------header------------- */
+
+header {
+    position: absolute;
+}
+
+.page-header {
+    font-family: Verdana, Arial, sans-serif;
+    position: relative;
+}
+
+@media only screen and (min-width: 400px) {
+    .page-header {
+        width: 100%;
+        margin: 0 auto;
+        background: url("../image/bg-top.png") repeat-x scroll left bottom transparent;
+        background-size: 10px 135px;
+        height: 135px;
+    }
+}
+
+.cgvlogo img {
+    position: relative;
+    left: 140px;
+    top: 40px;
+}
+
+.header-search-left .kenhcine img {
+    position: relative;
+    top: 55px;
+    right: 160px;
+}
+
+.header-search-right img {
+    position: relative;
+    top: 10px;
+    right: 145px;
+}
+
+#header-nav ol {
+    display: flex;
+    list-style-type: none;
+}
+
+ol li a {
+    justify-content: space-evenly;
+    color: black;
+    cursor: pointer;
+}
+
+#header-nav ol ul li {
+    list-style: none;
+}
+
+.skip-content {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Verdana, Arial, sans-serif;
+
+}
+
+@media only screen and (min-width: 771px) {
+    #header-nav {
+        display: block;
+        left: 140px;
+        position: relative;
+        top: 60px;
+    }
+}
+
+.nav-primary {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.level1 {
+    /* thằng con */
+    position: absolute;
+    display: none;
+    border: 1px solid #dadada;
+    padding: 10px;
+    background-color: #150c0cd7;
+    z-index: 100;
+}
+
+.level1 a {
+    color: rgb(255, 255, 255);
+}
+
+.level0:hover .level1 {
+    /* thằng cha */
+    display: block;
+}
+
+
+.level1 li+li:hover {
+    /* css bên trong thẻ li */
+    background-color: red;
+}
+
+.level1 li:first-child:hover {
+    background-color: red;
+    color: white;
+}
+
+@media only screen and (min-width: 771px) {
+    .nav-primary {
+        display: block;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 771px) {
+    ol {
+        list-style: none;
+        float: left;
+    }
+}
+
+/* -----------phim đang chiếu---------- */
+
+
+.list-film {
+    margin: 0 150px;
+}
+
+.home-phim {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    margin-bottom: 30px;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.dang-chieu-sap-chieu {
+    display: flex;
+    position: relative;
+}
+
+.dang-chieu-sap-chieu h3 {
+    position: absolute;
+    right: 0;
+    top: 25px
+}
+
+.list-film .list-film-dang-chieu .ten-phim li {
+    list-style: none;
+}
+
+.list-film .list-film-dang-chieu {
+    position: relative;
+    background-color: rgb(128, 128, 128, 0.1);
+    width: 240px;
+    height: 550px;
+}
+
+.list-film .dang-chieu-sap-chieu h2 a {
+    color: black;
+}
+
+.list-film .dang-chieu-sap-chieu h3 a {
+    color: grey;
+}
+
+
+.list-film .list-film-dang-chieu .film img {
+    width: 240px;
+    height: 340px;
+}
+
+.list-film .list-film-dang-chieu .lien-he {
+    cursor: pointer;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+    color: #dadada;
+    font-weight: bold;
+}
+
+.list-film .list-film-dang-chieu .lien-he span:nth-child(1) {
+    padding: 0px 20px 0px 3px;
+    border-radius: 5px;
+    background-color: rgb(24 119 242);
+    right: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+.film-hay-dang-chieu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+
+/* -------------- footer------------- */
+
+.content-cgv-policy {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    margin-bottom: 20px;
+}
+
+.content-cgv-policy div h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.content-cgv-policy div li {
+    font-size: 13px;
+    list-style: none;
+
+
+}
+
+.content-cgv-policy div p {
+    font-size: 13px;
+}
+
+.bottom-footer {
+    background-image: url("../image/bg-bottom-footer.jpg");
+    height: 200px;
+
+}
+
+
+.content-cgv-policy .cgv-follow-us .cgvFllow {
+    display: flex;
+    gap: 10px;
+}
+
+.content-cgv-policy a {
+    color: black;
+}
+.dangXuat{
+    cursor: pointer;
+}

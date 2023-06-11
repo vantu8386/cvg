@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/muaVe.css" />
+    <title>Mua Vé</title>
+</head>
+
+<body>
+    <div class="movie-container">
+        <label>Giá Tiền Mỗi Ghế:</label>
+        <select id="movie">
+            <option value="80000">Hàng Ghế A & B: Giá(80.000 VND)</option>
+            <option value="90000">Hàng Ghế E & F: Giá (90.000 VND)</option>
+            <option value="100000">Hàng ghế C: Giá (100.000 VND)</option>
+            <option value="120000">Hàng Ghế D: Giá (120.000 VND)</option>
+        </select>
+    </div>
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>Ghế Chưa Chọn</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Ghế Bạn Chọn</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Không Thể Chọn</small>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="screen"></div>
+
+        <div class="row">
+            <div class="seat" data-price="80000">A0</div>
+            <div class="seat" data-price="80000">A1</div>
+            <div class="seat" data-price="80000">A2</div>
+            <div class="seat" data-price="80000">A3</div>
+            <div class="seat" data-price="80000">A4</div>
+            <div class="seat" data-price="80000">A5</div>
+            <div class="seat" data-price="80000">A6</div>
+            <div class="seat" data-price="80000">A7</div>
+        </div>
+        <div class="row">
+            <div class="seat" data-price="80000">B8</div>
+            <div class="seat" data-price="80000">B9</div>
+            <div class="seat" data-price="80000">B10</div>
+            <div class="seat occupied" data-price="80000">B11</div>
+            <div class="seat occupied" data-price="80000">B12</div>
+            <div class="seat" data-price="80000">B13</div>
+            <div class="seat" data-price="80000">B14</div>
+            <div class="seat" data-price="80000">B15</div>
+        </div>
+        <div class="row">
+            <div class="seat" data-price="100000">C16</div>
+            <div class="seat" data-price="100000">C17</div>
+            <div class="seat" data-price="100000">C18</div>
+            <div class="seat" data-price="100000">C19</div>
+            <div class="seat" data-price="100000">C20</div>
+            <div class="seat" data-price="100000">C21</div>
+            <div class="seat occupied" data-price="100000">C22</div>
+            <div class="seat occupied" data-price="100000">C23</div>
+        </div>
+        <div class="row">
+            <div class="seat" data-price="120000">D24</div>
+            <div class="seat" data-price="120000">D25</div>
+            <div class="seat" data-price="120000">D26</div>
+            <div class="seat" data-price="120000">D27</div>
+            <div class="seat" data-price="120000">D28</div>
+            <div class="seat" data-price="120000">D29</div>
+            <div class="seat" data-price="120000">D30</div>
+            <div class="seat" data-price="120000">D31</div>
+        </div>
+        <div class="row">
+            <div class="seat" data-price="90000">E32</div>
+            <div class="seat" data-price="90000">E33</div>
+            <div class="seat" data-price="90000">E34</div>
+            <div class="seat occupied" data-price="90000">E35</div>
+            <div class="seat occupied" data-price="90000">E36</div>
+            <div class="seat" data-price="90000">E37</div>
+            <div class="seat" data-price="90000">E38</div>
+            <div class="seat" data-price="90000">E39</div>
+        </div>
+        <div class="row">
+            <div class="seat" data-price="90000">F40</div>
+            <div class="seat" data-price="90000">F41</div>
+            <div class="seat" data-price="90000">F42</div>
+            <div class="seat" data-price="90000">F43</div>
+            <div class="seat" data-price="90000">F44</div>
+            <div class="seat occupied" data-price="90000">F45</div>
+            <div class="seat occupied" data-price="90000">F46</div>
+            <div class="seat" data-price="90000">F47</div>
+        </div>
+    </div>
+
+    <p class="text">
+        Bạn đã chọn <span id="count">0</span> chỗ ngồi với giá<span id="total">0</span> VND
+    </p>
+    <button>Thanh Toán</button>
+    <script src="../js/muaVe.js"></script>
+</body>
+
+</html>

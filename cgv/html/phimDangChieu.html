@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/phimDangChieu.css">
+    <title>Phim Đang Chiếu</title>
+</head>
+
+<body>
+    <div class="text-center">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <img src="../image/bc0df7332e1c91fc66f39e173c65905d.jpg" alt="">
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="session-header">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-2">
+                    <a href="#">Tin Mới & Ưu Đãi</a>
+                </div>
+                <div class="col 2">
+                    <a href="../html/veCuaToi.html">Vé Của Tôi</a>
+                </div>
+                <div class="col 2">
+                    <i class="bi bi-person"></i>
+                    <span class="dangNhap" id="welcome-message"><a href="./dangNhap.html">Đăng Nhập</a></span>/
+                    <span class="dangKi" id="login-message"><a href="./html/dangKi.html">Đăng Kí</a></span>
+                </div>
+                <!-- <div class="col-2 ngonNgu">
+                    <ul>
+                        <li class="vn"><a href="#">VN</a></li>
+                        <li class="en"><a href="#">EN</a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <header class="page-header">
+        <div class="page-header-container">
+            <div class="row skip-content">
+                <div class="col-1 cgvlogo">
+                    <a href="../trangChuCGV.html"><img src="../image/cgvlogo.png" alt=""></a>
+                </div>
+                <div id="header-nav" class="col-9">
+                    <ol class="nav-primary">
+                        <li class="level0"><a href="#">PHIM</a>
+                            <ul class="level1">
+                                <li><a href="../html/phimDangChieu.html">Phim Đang Chiếu</a></li>
+                                <li><a href="../html/phimSapChieu.html">Phim Sắp Chiếu</a></li>
+                            </ul>
+                        </li>
+                        <li class="level0"><a href="#">RẠP CGV</a>
+                            <ul class="level1">
+                                <li><a href="#">Tất Cả Các Rạp</a></li>
+                                <li><a href="#">Rạp Đặc Biệt</a></li>
+                                <li><a href="#">Rạp 3D</a></li>
+                            </ul>
+                        </li>
+                        <li class="level0"><a href="#">THÀNH VIÊN</a>
+                            <ul class="level1">
+                                <li><a href="#">Quyền Lợi</a></li>
+                            </ul>
+                        </li>
+                        <li class="level0"><a href="#">CULTUREPLEX</a>
+                            <ul class="level1">
+                                <li><a href="#">Quầy Online</a></li>
+                                <li><a href="#">Thuê Rạp & Vé Nhóm</a></li>
+                                <li><a href="#">E-CGV</a></li>
+                                <li><a href="#">Thẻ Quà Tặng</a></li>
+                                <li><a href="#">CGV Rules</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">TUYỂN DỤNG
+                                <img src="../image/hot-jobs.png" alt="">
+                            </a></li>
+                    </ol>
+                </div>
+
+                <div class="header-search-left col-1">
+                    <p class="kenhcine">
+                        <a href="#"><img src="../image/kenhcine.gif" alt=""></a>
+                    </p>
+                </div>
+                <div class="header-search-right col-1">
+                    <p>
+                        <a href="#"><img src="../image/mua-ve_ngay.png" alt=""></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-phim">
+        <div class="home-phim">
+            <img src="../image/bg-cgv-bread-home.png" alt=""> <b>></b>
+            <span>phim</span> <b>></b>
+            <span><b>Phim Đang Chiếu</b></span>
+        </div>
+
+        <section class="list-film">
+            <div class="dang-chieu-sap-chieu">
+                <h2><a href="./phimDangChieu.html">Phim Đang Chiếu</a></h2>
+                <h3><a href="./phimSapChieu.html">Phim Sắp Chiếu</a></h3>
+            </div>
+            <hr style="height: 3px; background-color: rgb(53, 11, 4);">
+
+            <div class="film-hay-dang-chieu">
+                <!-- <div class="list-film-dang-chieu">
+                    <div class="film">
+                        <img src="../image/700x1000-fastx_1.jpg" alt="">
+                    </div>
+                    <div class="ten-phim">
+                        <h5>FAST AND FURIOUS X</h5>
+                        <li><b>Thể loại:</b>Hành Động, Tội Phạm</li>
+                        <li><b>Thời lượng</b>141 phút</li>
+                        <li><b>Khởi chiếu</b> 11-11-1111</li>
+                    </div>
+                    <div class="lien-he">
+                        <span><i class="fa-regular fa-thumbs-up"></i>Like 0</span>
+                        <span class="btn-mua-ve"><img src="../image/bg-cate-booking.png" alt=""> MUA VÉ</span>
+                    </div>
+                </div> -->
+         
+            </div>
+
+        </section>
+        <!-- --------------nút mua vé---------------- -->
+
+        <div id="myOverlay" class="overlay">
+            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+            <div class="overlay-content">
+                <div class="chon-ngay">
+                    <ul class="list-day">
+                        <li class="lich">01</li>
+                        <li class="lich">02</li>
+                        <li class="lich">03</li>
+                        <li class="lich">04</li>
+                        <li class="lich">05</li>
+                        <li class="lich">06</li>
+                        <li class="lich">07</li>
+                        <li class="lich">08</li>
+                        <li class="lich">09</li>
+                        <li class="lich">10</li>
+                        <li class="lich">11</li>
+                        <li class="lich">12</li>
+                        <li class="lich">13</li>
+                        <li class="lich">14</li>
+                        <li class="lich">15</li>
+                        <li class="lich">16</li>
+                        <li class="lich">17</li>
+                        <li class="lich">18</li>
+                        <li class="lich">19</li>
+                        <li class="lich">20</li>
+                        <li class="lich">21</li>
+                        <li class="lich">22</li>
+                        <li class="lich">23</li>
+                        <li class="lich">24</li>
+                        <li class="lich">25</li>
+                        <li class="lich">26</li>
+                        <li class="lich">27</li>
+                        <li class="lich">28</li>
+                        <li class="lich">29</li>
+                        <li class="lich">30</li>
+                    </ul>
+                    <hr style="background-color: black; height: 3px;">
+                </div>
+
+                <div class="khu-vuc">
+                    <h5>Khu vực</h5>
+                    <div class="chon-khu-vuc">
+                        <p class="khuVuc khuVucHaNoi">Hà Nội</p>
+                        <p class="khuVuc khuVucHCM">Hồ Chí Minh</p>
+                        <p class="khuVuc khuVucCanTho">Cần Thơ</p>
+                    </div>
+                    <div class="haNoi">
+                        <p class="haNoi-cgv">CGV AEON</p>
+                        <p class="haNoi-cgv">CGV Vincom Times City</p>
+                        <p class="haNoi-cgv">CGV Tràng Tiền Plaza</p>
+                    </div>
+                    <div class="hcm">
+                        <p class="hcm-cgv">CGV Hùng Vương Plaza</p>
+                        <p class="hcm-cgv">CGV Crescent Mall</p>
+                        <p class="hcm-cgv">CGV Vincom Thủ Đức</p>
+                    </div>
+
+                    <div class="canTho">
+                        <p class="canTho-cgv">CGV Hùng Vương</p>
+                        <p class="canTho-cgv">CGV Vincom Xuân Khánh</p>
+                    </div>
+                </div>
+                <div class="chon-gio">
+                    <h5>Giờ Xem Phim</h5>
+                    <div class="gio-xem-phim">
+                        <p class="gioXem">10:50 AM</p>
+                        <p class="gioXem">13:40 PM</p>
+                        <p class="gioXem">16:30 PM</p>
+                    </div>
+                </div>
+                <!-- <button class="dat-ve"><a href="../html/muaVe.html">Đặt vé</a></button> -->
+            </div>
+        </div>
+
+        <!-- -----------footer------------ -->
+        <br>
+        <hr><br>
+
+        <div class="footer-cgv-policy">
+            <div class="content-cgv-policy">
+                <div class="cgv-vietnam">
+                    <h3>CGV Việt Nam</h3>
+                    <li><a href="https://www.cgv.vn/default/about-cgv/">Giới Thiệu</a></li>
+                    <li><a href="https://www.cgv.vn/default/cgv-online/">Tiện Ích Online</a></li>
+                    <li><a href="https://www.cgv.vn/default/gift-card/">Thẻ Quà Tặng</a></li>
+                    <li><a href="https://www.cgv.vn/default/careers/">Tuyển Dụng</a></li>
+                    <li><a href="https://www.cgv.vn/default/contacts/">Liên Hệ Quảng Cáo CGV</a></li>
+                </div>
+                <div class="cgv-policy">
+                    <h3>Điều khoản sử dụng</h3>
+                    <li><a href="https://www.cgv.vn/default/terms-conditions/">Điều Khoản Chung</a></li>
+                    <li><a href="https://www.cgv.vn/default/terms-use/">Điều Khoản Giao Dịch</a></li>
+                    <li><a href="https://www.cgv.vn/default/payment-policy/">Chính Sách Thanh Toán</a></li>
+                    <li><a href="https://www.cgv.vn/default/privacy-policy/">Chính Sách Bảo Mật</a></li>
+                    <li><a href="https://www.cgv.vn/default/faq/">Câu Hỏi Thường Gặp</a></li>
+                </div>
+                <div class="cgv-follow-us">
+                    <h3>Kết nối với chúng tôi</h3>
+                    <div class="cgvFllow">
+                        <li><a class="follow-fb" href="https://www.facebook.com/cgvcinemavietnam" target="_blank"><img
+                                    src="../image/facebook-icon.jpg" style="width: 20px;" alt=""></a>
+                        </li>
+                        <li><a class="follow-yt" href="https://www.youtube.com/cgvvietnam" target="_blank"><img
+                                    src="../image/188_youtube.jpg" style="width: 33px;" alt=""></a></li>
+                        <li><a class="follow-instagram" href="http://instagram.com/cgvcinemasvietnam"
+                                target="_blank"><img src="../image/instagram-jpg.jpg" style="width: 20px;" alt=""></a>
+                        </li>
+                        <li><a class="follow-zalo" href="http://zalo.me/1884424922722396289" target="_blank"><img
+                                    src="../image/zalo-logo.jpg" style="width: 23px;" alt=""></a>
+                        </li>
+                    </div>
+                </div>
+                <div class="customer-cgv">
+                    <h3>Chăm sóc khách hàng</h3>
+                    <p style="line-height: 22px;">
+                        Hotline: 1900 6017<br>
+                        Giờ làm việc: 8:00 - 22:00 <br>(Tất cả các ngày
+                        bao gồm cả Lễ Tết)<br>
+                        Email hỗ trợ: <a href="mailto:hoidap@cgv.vn">hoidap@cgv.vn</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer"></div>
+    </div>
+    <script src="../js/phimDangChieu.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

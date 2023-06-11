@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hide{
+    display: none;
+}
+
+div.show{
+    color: red;
+}
+div.showw{
+    color: rgb(10, 160, 70);
+}

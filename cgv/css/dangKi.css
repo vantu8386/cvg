@@ -1,0 +1,10 @@
+.hide{
+    display: none;
+}
+
+div.show{
+    color: red;
+}
+div.showw{
+    color: rgb(10, 160, 70);
+}
